@@ -1,0 +1,48 @@
+{{- $engines := partialCached "hb/modules/theme-start/functions/engines" . }}
+{{- $preferred := index $engines 0 }}
+<form
+  class="form hb-start-search-form position-relative mb-4"
+  action="{{ $preferred.url }}"
+  target="_blank">
+  <input
+    class="form-control form-control-lg rounded-pill w-100 hb-start-search-input shadow-sm"
+    name="{{ $preferred.inputName }}" />
+  <div class="dropdown position-absolute top-0 mt-2 ms-1">
+    {{- with index $engines 0 }}
+      <a
+        class="btn text-bg-body border-0 hb-start-search-engine-toggle"
+        href="#"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false">
+        {{ .icon }}
+      </a>
+    {{- end }}
+    <ul class="hb-start-search-engines dropdown-menu">
+      {{- $first := true }}
+      {{- range $engines }}
+        <li>
+          <a
+            class="dropdown-item hb-start-search-engine py-2{{ cond $first ` active` `` }}"
+            href="#"
+            data-url="{{ .url }}"
+            data-input-name="{{ .inputName }}">
+            <span class="p-1 pt-2 rounded bg-body-secondary me-1">{{ .icon }}</span>
+            {{ .title }}
+          </a>
+        </li>
+        {{- $first = false }}
+      {{- end }}
+    </ul>
+  </div>
+  <button
+    class="bg-transparent position-absolute end-0 top-0 border-0 py-2 px-3 btn-hb-start-search text-body-secondary"
+    type="submit">
+    {{- partial "icons/icon" (dict
+      "vendor" "bootstrap"
+      "name" "search"
+      "width" "1.25rem"
+      "height" "1.25rem")
+    }}
+  </button>
+</form>

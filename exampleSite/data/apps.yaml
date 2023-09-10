@@ -1,0 +1,27 @@
+- title: Hugo Modules
+  url: https://hugomods.com/
+  weight: 1
+
+- title: HB Framework
+  url: https://hbstack.dev/
+  weight: 2
+
+- title: GitHub
+  url: https://github.com
+  weight: 10
+
+- title: Gmail
+  url: https://mail.google.com
+  weight: 10
+
+- title: Google AdSense
+  url: https://www.google.com/adsense
+  weight: 11
+
+- title: Google Analytics
+  url: https://analytics.google.com/
+  weight: 12
+
+- title: Google Search Console
+  url: https://search.google.com/search-console
+  weight: 13

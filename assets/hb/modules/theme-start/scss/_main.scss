@@ -1,0 +1,14 @@
+.hb-main {
+  align-items: center;
+  justify-content: center;
+}
+
+@if ($hb-start-bg) {
+  .hb-header-nav {
+    background-color: transparent !important;
+  }
+
+  .hb-footer {
+    background-color: transparent !important;
+  }
+}

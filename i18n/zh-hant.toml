@@ -1,0 +1,26 @@
+[all_sites]
+other = "全部"
+
+[search_engine_baidu]
+other = "百度"
+
+[search_engine_bing]
+other = "必應"
+
+[search_engine_duckduckgo]
+other = "DuckDuckGo"
+
+[search_engine_google]
+other = "谷歌"
+
+[search_engine_sogou]
+other = "搜狗"
+
+[search_engine_wikipedia]
+other = "維基百科"
+
+[search_engine_yahoo]
+other = "雅虎"
+
+[search_engine_yandex]
+other = "Yandex"

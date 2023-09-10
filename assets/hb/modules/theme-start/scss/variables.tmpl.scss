@@ -1,0 +1,8 @@
+$hb-start-bg: false;
+{{- $bg := resources.GetMatch "images/background.*" }}
+{{- with $bg }}
+$hb-start-bg: true;
+  {{- with $bg.Colors }}
+$hb-start-color: {{ index . 0 }};
+  {{- end }}
+{{- end }}

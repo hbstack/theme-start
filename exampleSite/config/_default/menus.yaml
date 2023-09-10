@@ -1,0 +1,65 @@
+main:
+  - name: Docs
+    url: https://hbstack.dev/
+    params:
+      icon:
+        vendor: bs
+        name: book
+
+apps:
+  - name: Projects
+    identifier: projects
+    weight: 1
+
+  - name: Hugo Modules
+    parent: projects
+    url: https://hugomods.com/
+    weight: 1
+
+  - name: HB Framework
+    parent: projects
+    url: https://hbstack.dev/
+    weight: 2
+
+  - name: Hugo Docker
+    parent: projects
+    url: https://hugomods.com/en/docs/docker/
+    weight: 3
+
+  - name: Work
+    identifier: work
+    weight: 2
+
+  - name: GitHub
+    parent: work
+    url: https://github.com
+    weight: 1
+
+  - name: Gmail
+    parent: work
+    url: https://mail.google.com
+    weight: 2
+
+  - name: Webmaster
+    identifier: webmaster
+    weight: 3
+
+  - name: Google AdSense
+    url: https://www.google.com/adsense
+    weight: 1
+    parent: webmaster
+
+  - name: Google Analytics
+    url: https://analytics.google.com/
+    weight: 2
+    parent: webmaster
+
+  - name: Google Search Console
+    url: https://search.google.com/search-console
+    weight: 3
+    parent: webmaster
+
+  - name: Bing Webmaster Tools
+    url: https://www.bing.com/webmasters/about
+    weight: 4
+    parent: webmaster
