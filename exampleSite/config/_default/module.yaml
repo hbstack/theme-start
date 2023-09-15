@@ -1,4 +1,2 @@
-proxy: https://goproxy.cn
-
 imports:
   - path: github.com/hbstack/theme-start
