@@ -1,0 +1,12 @@
+name = "HB Start Theme"
+license = "MIT"
+licenselink = "https://github.com/hbstack/theme-start/blob/main/LICENSE"
+description = "Building your own fast, responsive, modern and minimalist start page."
+homepage = "https://github.com/hbstack/theme-start"
+demosite = "https://start.hbstack.dev/"
+tags = ["responsive", "minimal", "start page"]
+features = ["light", "dark", "dark-mode", "multilingual"]
+authors = [
+  { name = "HB Framework", homepage = "https://hbstack.dev/" },
+  { name = "Razon Yang", homepage = "https://razonyang.com/" },
+]
