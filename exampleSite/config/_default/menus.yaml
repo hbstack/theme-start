@@ -1,6 +1,6 @@
 main:
   - name: Docs
-    url: https://hbstack.dev/
+    url: https://hbstack.dev/en/themes/start/
     params:
       icon:
         vendor: bs
