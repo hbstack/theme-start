@@ -14,7 +14,7 @@ require (
 	github.com/hbstack/header/modules/language-picker v0.1.14 // indirect
 	github.com/hbstack/header/modules/socials v0.1.20 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.1.14 // indirect
-	github.com/hbstack/theme-start v0.0.0-00010101000000-000000000000 // indirect
+	github.com/hbstack/theme-start v0.0.0-20230915074953-3ad6ca3aee06 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.0 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.13 // indirect
