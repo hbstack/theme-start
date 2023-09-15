@@ -3,7 +3,7 @@
   justify-content: center;
 }
 
-@if ($hb-start-bg) {
+@if $hb-start-bg {
   .hb-header-nav {
     background-color: transparent !important;
   }
