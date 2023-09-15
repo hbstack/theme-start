@@ -8,3 +8,5 @@
 Building your own fast, responsive, modern and minimalist start page.
 
 Inspired by Google Chrome new tab, and port it for all platforms and browers.
+
+![Screenshot](./images/screenshot.png)
