@@ -24,3 +24,18 @@ other = "Yahoo"
 
 [search_engine_yandex]
 other = "Yandex"
+
+[search_result_type_images]
+other = "Images"
+
+[search_result_type_maps]
+other = "Maps"
+
+[search_result_type_news]
+other = "News"
+
+[search_result_type_organic]
+other = "Organic"
+
+[search_result_type_videos]
+other = "Videos"

@@ -1,0 +1,18 @@
+[params.hb.theme_start.search_engines.sogou]
+icon = "sogou"
+icon_color = "#fb6022"
+
+[params.hb.theme_start.search_engines.sogou.types.images]
+weight = 2
+input_name = "query"
+url = "https://pic.sogou.com/pics"
+
+[params.hb.theme_start.search_engines.sogou.types.organic]
+weight = 1
+input_name = "query"
+url = "https://www.sogou.com/web"
+
+[params.hb.theme_start.search_engines.sogou.types.videos]
+weight = 3
+input_name = "query"
+url = "https://v.sogou.com/v"

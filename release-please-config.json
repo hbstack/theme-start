@@ -16,8 +16,24 @@
     "packages": {
         ".": {
             "exclude-paths": [
-            ],
-            "separate-pull-requests": true
+                "engines"
+            ]
+        },
+        "engines/baidu": {
+        },
+        "engines/bing": {
+        },
+        "engines/duckduckgo": {
+        },
+        "engines/google": {
+        },
+        "engines/sogou": {
+        },
+        "engines/wikipedia": {
+        },
+        "engines/yahoo": {
+        },
+        "engines/yandex": {
         }
     }
 }

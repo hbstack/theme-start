@@ -1,8 +1,18 @@
 module github.com/hbstack/theme-start/exampleSite
 
-go 1.18
+go 1.21.1
 
-replace github.com/hbstack/theme-start => ../
+replace (
+	github.com/hbstack/theme-start => ../
+	github.com/hbstack/theme-start/engines/baidu => ../engines/baidu
+	github.com/hbstack/theme-start/engines/bing => ../engines/bing
+	github.com/hbstack/theme-start/engines/duckduckgo => ../engines/duckduckgo
+	github.com/hbstack/theme-start/engines/google => ../engines/google
+	github.com/hbstack/theme-start/engines/sogou => ../engines/sogou
+	github.com/hbstack/theme-start/engines/wikipedia => ../engines/wikipedia
+	github.com/hbstack/theme-start/engines/yahoo => ../engines/yahoo
+	github.com/hbstack/theme-start/engines/yandex => ../engines/yandex
+)
 
 require (
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
@@ -15,6 +25,14 @@ require (
 	github.com/hbstack/header/modules/socials v0.1.20 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.1.14 // indirect
 	github.com/hbstack/theme-start v0.0.0-20230915145637-74af94a738a8 // indirect
+	github.com/hbstack/theme-start/engines/baidu v0.0.0-00010101000000-000000000000 // indirect
+	github.com/hbstack/theme-start/engines/bing v0.0.0-00010101000000-000000000000 // indirect
+	github.com/hbstack/theme-start/engines/duckduckgo v0.0.0-00010101000000-000000000000 // indirect
+	github.com/hbstack/theme-start/engines/google v0.0.0-00010101000000-000000000000 // indirect
+	github.com/hbstack/theme-start/engines/sogou v0.0.0-00010101000000-000000000000 // indirect
+	github.com/hbstack/theme-start/engines/wikipedia v0.0.0-00010101000000-000000000000 // indirect
+	github.com/hbstack/theme-start/engines/yahoo v0.0.0-00010101000000-000000000000 // indirect
+	github.com/hbstack/theme-start/engines/yandex v0.0.0-00010101000000-000000000000 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.0 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.13 // indirect

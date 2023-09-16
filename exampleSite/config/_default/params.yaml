@@ -6,21 +6,21 @@ hb:
       github: hbstack/theme-start
       paypal: razonyang
       kofi: razonyang
-  theme_start:
-    search_engines:
-      google:
-        weight: 1
-      bing:
-        weight: 2
-      baidu:
-        weight: 3
-      duckduckgo:
-        weight: 4
-      wikipedia:
-        disable: false
-      yahoo:
-        disable: false
-      yandex:
-        disable: false
-      sogou:
-        disable: false
+  # theme_start:
+    # search_engines:
+    #   google:
+    #     weight: 1
+    #   bing:
+    #     weight: 2
+    #   baidu:
+    #     weight: 3
+    #   duckduckgo:
+    #     weight: 4
+    #   wikipedia:
+    #     disable: false
+    #   yahoo:
+    #     disable: false
+    #   yandex:
+    #     disable: false
+    #   sogou:
+    #     disable: false

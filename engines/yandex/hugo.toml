@@ -1,0 +1,19 @@
+[params.hb.theme_start.search_engines.yandex]
+icon = "yandex"
+icon_vendor = "fab"
+icon_color = "#fc3f1d"
+
+[params.hb.theme_start.search_engines.yandex.types.images]
+weight = 2
+url = "https://yandex.com/images/search"
+input_name = "text"
+
+[params.hb.theme_start.search_engines.yandex.types.organic]
+weight = 1
+url = "https://yandex.com/search"
+input_name = "text"
+
+[params.hb.theme_start.search_engines.yandex.types.videos]
+weight = 3
+url = "https://yandex.com/video/search"
+input_name = "text"

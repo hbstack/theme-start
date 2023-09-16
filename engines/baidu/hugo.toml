@@ -1,0 +1,30 @@
+[params.hb.theme_start.search_engines.baidu]
+weight = 3
+icon = "baidu"
+icon_color = "#2932e1"
+
+[params.hb.theme_start.search_engines.baidu.types.images]
+weight = 2
+input_name = "word"
+url = "https://image.baidu.com/search/index"
+hidden_input_name = "tn"
+hidden_input_value = "baiduimage"
+
+[params.hb.theme_start.search_engines.baidu.types.news]
+weight = 4
+input_name = "word"
+url = "https://www.baidu.com/s"
+hidden_input_name = "tn"
+hidden_input_value = "news"
+
+[params.hb.theme_start.search_engines.baidu.types.organic]
+weight = 1
+input_name = "wd"
+url = "https://www.baidu.com/s"
+
+[params.hb.theme_start.search_engines.baidu.types.videos]
+weight = 3
+input_name = "wd"
+url = "https://www.baidu.com/sf/vsearch"
+hidden_input_name = "pd"
+hidden_input_value = "video"

@@ -9,11 +9,15 @@
     "color" .icon_color
     "className" "hb-start-search-engine-icon")
   }}
+  {{- $types := slice }}
+  {{- range $id, $type := .types }}
+    {{- $types = $types | append (merge (dict "id" $id) $type) }}
+  {{- end }}
   {{- $engines = $engines | append (dict
+    "id" $id
     "weight" (default 100 .weight)
     "title" (default ($id | title) ($id | printf "search_engine_%s" | i18n))
-    "url" .url
-    "inputName" (default "q" .input_name)
+    "types" (sort $types "weight")
     "icon" $icon)
   }}
 {{- end }}

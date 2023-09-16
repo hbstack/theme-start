@@ -24,3 +24,18 @@ other = "雅虎"
 
 [search_engine_yandex]
 other = "Yandex"
+
+[search_result_type_images]
+other = "圖片"
+
+[search_result_type_maps]
+other = "地圖"
+
+[search_result_type_news]
+other = "新聞"
+
+[search_result_type_organic]
+other = "網頁"
+
+[search_result_type_videos]
+other = "視頻"

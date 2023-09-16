@@ -1,0 +1,23 @@
+[params.hb.theme_start.search_engines.yahoo]
+icon = "yahoo"
+icon_color = "#6001d2"
+
+[params.hb.theme_start.search_engines.yahoo.types.images]
+weight = 2
+url = "https://images.search.yahoo.com/search/images"
+input_name = "p"
+
+[params.hb.theme_start.search_engines.yahoo.types.news]
+weight = 4
+url = "https://news.search.yahoo.com/search"
+input_name = "p"
+
+[params.hb.theme_start.search_engines.yahoo.types.organic]
+weight = 1
+url = "https://search.yahoo.com/search"
+input_name = "p"
+
+[params.hb.theme_start.search_engines.yahoo.types.videos]
+weight = 3
+url = "https://video.search.yahoo.com/search/video"
+input_name = "p"

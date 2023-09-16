@@ -1,2 +1,10 @@
 imports:
   - path: github.com/hbstack/theme-start
+  - path: github.com/hbstack/theme-start/engines/baidu
+  - path: github.com/hbstack/theme-start/engines/bing
+  - path: github.com/hbstack/theme-start/engines/duckduckgo
+  - path: github.com/hbstack/theme-start/engines/google
+  - path: github.com/hbstack/theme-start/engines/sogou
+  - path: github.com/hbstack/theme-start/engines/wikipedia
+  - path: github.com/hbstack/theme-start/engines/yahoo
+  - path: github.com/hbstack/theme-start/engines/yandex
