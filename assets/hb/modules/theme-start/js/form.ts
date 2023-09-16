@@ -9,8 +9,9 @@
     return
   }
 
-  // focus the input on page loaded.
-  input?.focus()
+  const remember = (id: string): void => {
+    localStorage.setItem('engine', id)
+  }
 
   const activeEngine = (engine: HTMLElement): void => {
     engines.forEach((el) => {
@@ -19,6 +20,7 @@
     engine.classList.add('active')
     toggle.innerHTML = engine.querySelector('svg')?.outerHTML
     const engineID = engine.getAttribute('data-id')
+    remember(engineID)
     document.querySelectorAll('.hb-start-search-result-types').forEach((el) => {
       if (el.getAttribute('data-engine') !== engineID) {
         el.classList.add('d-none')
@@ -74,6 +76,18 @@
     })
     item.classList.add('active')
     setResultTypeInput(item)
+  }
+
+  // focus the input on page loaded.
+  input?.focus()
+
+  // load the last engine.
+  const engineID = localStorage.getItem('engine')
+  if (engineID !== null) {
+    const engine = document.querySelector<HTMLElement>(`.hb-start-search-engine[data-id="${engineID}"]`)
+    if (engine !== null) {
+      activeEngine(engine)
+    }
   }
 
   engines.forEach((el) => {
