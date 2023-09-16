@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.2](https://github.com/hbstack/theme-start/compare/v0.3.1...v0.3.2) (2023-09-16)
+
+
+### Styles 🎨
+
+* add the gap between of result type icons and names ([7a5f939](https://github.com/hbstack/theme-start/commit/7a5f939d5e8b35f60d7bec19353fcb980f6460f4))
+
 ## [0.3.1](https://github.com/hbstack/theme-start/compare/v0.3.0...v0.3.1) (2023-09-16)
 
 
