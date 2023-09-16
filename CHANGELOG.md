@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.2.0](https://github.com/hbstack/theme-start/compare/v0.1.0...v0.2.0) (2023-09-16)
+
+
+### Features ✨
+
+* add search engine modules and result types ([3cd759e](https://github.com/hbstack/theme-start/commit/3cd759e9e54a76485517aa84f4b81c1e2c66d89d))
+
+
+### Styles 🎨
+
+* change margin-top as mt-1 of search engine icon ([0cad124](https://github.com/hbstack/theme-start/commit/0cad1245fd1747978972f3888258aa59508f7081))
+* change search engine icons padding ([09d5da5](https://github.com/hbstack/theme-start/commit/09d5da520970e997f8312a00b8f0364f102f1cf6))
+
 ## [0.1.0](https://github.com/hbstack/theme-start/compare/v0.0.1...v0.1.0) (2023-09-15)
 
 
