@@ -20,20 +20,28 @@
             ]
         },
         "engines/baidu": {
+            "component": "engines/baidu"
         },
         "engines/bing": {
+            "component": "engines/bing"
         },
         "engines/duckduckgo": {
+            "component": "engines/duckduckgo"
         },
         "engines/google": {
+            "component": "engines/google"
         },
         "engines/sogou": {
+            "component": "engines/sogou"
         },
         "engines/wikipedia": {
+            "component": "engines/wikipedia"
         },
         "engines/yahoo": {
+            "component": "engines/yahoo"
         },
         "engines/yandex": {
+            "component": "engines/yandex"
         }
     }
 }
