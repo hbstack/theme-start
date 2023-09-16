@@ -21,10 +21,10 @@
           {{ with .extra_hidden_input_value }}
             data-extra-hidden-input-value="{{ . }}"
           {{ end }}>
-          {{- with index $icons .id }}
-          <span class="d-none d-md-inline-block">{{ . | safeHTML }}</span>
-          {{- end }}
-          {{ .id | printf "search_result_type_%s" | i18n }}
+          {{- with index $icons .id -}}
+          <span class="d-none d-md-inline-block me-1">{{ . | safeHTML }}</span>
+          {{- end -}}
+          {{- .id | printf "search_result_type_%s" | i18n -}}
         </a>
       </li>
       {{- $firstType = false }}
