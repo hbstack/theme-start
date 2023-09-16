@@ -1,3 +1,11 @@
 {
-    ".": "0.1.0"
+    ".": "0.1.0",
+    "engines/baidu": "0.0.1",
+    "engines/bing": "0.0.1",
+    "engines/duckduckgo": "0.0.1",
+    "engines/google": "0.0.1",
+    "engines/sogou": "0.0.1",
+    "engines/wikipedia": "0.0.1",
+    "engines/yahoo": "0.0.1",
+    "engines/yandex": "0.0.1"
 }
