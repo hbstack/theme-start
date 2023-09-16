@@ -48,12 +48,17 @@
     {{ with .Parent }}data-parent="{{ . }}"{{ end }}
     target="_blank"
     rel="external">
-    <img
-      alt="{{ .Name }}"
-      data-title="{{ substr .Name 0 1 | upper }}"
-      onload="this.classList.add('loaded')"
-      class="hb-start-app-img bg-body-secondary rounded-circle d-flex justify-content-center align-items-center mb-2"
-      src="{{ $favicon }}" />
+    <div
+      class="hb-start-app-img-container position-relative overflow-hidden bg-body-secondary rounded-circle d-flex justify-content-center align-items-center mb-2">
+      <img
+        alt="{{ .Name }}"
+        onload="this.parentElement.classList.add('loaded')"
+        class="hb-start-app-img position-absolute top-0 w-100 h-100"
+        src="{{ $favicon }}" />
+      <span class="hb-start-app-img-placeholder position-absolute top-0 w-100 h-100">
+        {{ substr .Name 0 1 | upper }}
+      </span>
+    </div>
     <div class="hb-start-app-title text-center text-truncate w-100">
       {{ .Name }}
     </div>
