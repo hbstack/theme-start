@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.0](https://github.com/hbstack/theme-start/compare/v0.2.0...v0.3.0) (2023-09-16)
+
+
+### Features ✨
+
+* remember the search engine ([#14](https://github.com/hbstack/theme-start/issues/14)) ([f70db1b](https://github.com/hbstack/theme-start/commit/f70db1bfc4711d298035da71f7600c2b6d514fa3))
+
+
+### Bug Fixes 🐞
+
+* build ([fdeb5d0](https://github.com/hbstack/theme-start/commit/fdeb5d08ef675e5f232b6d3cc1304f3fdd0d7ced))
+
 ## [0.2.0](https://github.com/hbstack/theme-start/compare/v0.1.0...v0.2.0) (2023-09-16)
 
 
