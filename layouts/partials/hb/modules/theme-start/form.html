@@ -7,10 +7,12 @@
   target="_blank">
   <input
     class="form-control form-control-lg rounded-pill w-100 hb-start-search-input shadow-sm"
+    aria-label="Keywords"
     name="{{ $preferredType.input_name }}" />
   {{ partialCached "hb/modules/theme-start/engines" $engines }}
   <button
     class="bg-transparent position-absolute end-0 top-0 border-0 py-2 px-3 btn-hb-start-search text-body-secondary"
+    aria-label="Submit"
     type="submit">
     {{- partial "icons/icon" (dict
       "vendor" "bootstrap"

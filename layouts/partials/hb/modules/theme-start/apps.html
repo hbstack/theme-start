@@ -3,20 +3,22 @@
     <ul
       role="tablist"
       class="hb-start-app-taxonomies nav nav-underline justify-content-center mb-3">
-      <li class="nav-item">
+      <li class="nav-item" role="presentation">
         <button
           class="nav-link hb-start-app-taxonomy active"
           aria-selected="true"
+          role="tab"
           data-id="">
           {{ i18n "all_sites" }}
         </button>
       </li>
       {{- range . }}
-        <li class="nav-item">
+        <li class="nav-item" role="presentation">
           <button
             class="nav-link hb-start-app-taxonomy"
             data-id="{{ .Identifier }}"
             aria-selected="false"
+            role="tab"
             title="{{ .Name }}">
             {{ .Name }}
           </button>
@@ -55,7 +57,8 @@
         onload="this.parentElement.classList.add('loaded')"
         class="hb-start-app-img position-absolute top-0 w-100 h-100"
         src="{{ $favicon }}" />
-      <span class="hb-start-app-img-placeholder position-absolute top-0 w-100 h-100">
+      <span
+        class="hb-start-app-img-placeholder position-absolute top-0 w-100 h-100">
         {{ substr .Name 0 1 | upper }}
       </span>
     </div>
