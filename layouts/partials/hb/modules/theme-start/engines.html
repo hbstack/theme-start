@@ -1,0 +1,28 @@
+{{- $engines := . }}
+<div class="dropdown position-absolute top-0 mt-1 ms-1">
+  {{- with index $engines 0 }}
+    <a
+      class="btn text-bg-body border-0 hb-start-search-engine-toggle"
+      href="#"
+      role="button"
+      data-bs-toggle="dropdown"
+      aria-expanded="false">
+      {{ .icon }}
+    </a>
+  {{- end }}
+  <ul class="hb-start-search-engines dropdown-menu">
+    {{- $first := true }}
+    {{- range $engines }}
+      <li>
+        <a
+          class="dropdown-item hb-start-search-engine py-2{{ cond $first ` active` `` }}"
+          href="#"
+          data-id="{{ .id }}">
+          <span class="p-1 rounded bg-body-secondary me-1">{{ .icon }}</span>
+          {{ .title }}
+        </a>
+      </li>
+      {{- $first = false }}
+    {{- end }}
+  </ul>
+</div>

@@ -1,0 +1,8 @@
+[params.hb.theme_start.search_engines.wikipedia]
+icon = "wikipedia"
+icon_color = "#000000"
+
+[params.hb.theme_start.search_engines.wikipedia.types.organic]
+weight = 1
+input_name = "search"
+url = "https://en.wikipedia.org/w/index.php"

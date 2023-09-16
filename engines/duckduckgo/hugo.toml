@@ -1,0 +1,43 @@
+[params.hb.theme_start.search_engines.duckduckgo]
+weight = 4
+icon = "duckduckgo"
+icon_color = "#de5833"
+
+[params.hb.theme_start.search_engines.duckduckgo.types.images]
+weight = 2
+url = "https://duckduckgo.com/"
+input_name = "q"
+hidden_input_name = "ia"
+hidden_input_value = "images"
+extra_hidden_input_name = "iax"
+extra_hidden_input_value = "images"
+
+[params.hb.theme_start.search_engines.duckduckgo.types.maps]
+weight = 5
+url = "https://duckduckgo.com/"
+input_name = "q"
+hidden_input_name = "iaxm"
+hidden_input_value = "maps"
+
+[params.hb.theme_start.search_engines.duckduckgo.types.news]
+weight = 4
+url = "https://duckduckgo.com/"
+input_name = "q"
+hidden_input_name = "ia"
+hidden_input_value = "news"
+extra_hidden_input_name = "iar"
+extra_hidden_input_value = "news"
+
+[params.hb.theme_start.search_engines.duckduckgo.types.organic]
+weight = 1
+url = "https://duckduckgo.com/"
+input_name = "q"
+
+[params.hb.theme_start.search_engines.duckduckgo.types.videos]
+weight = 3
+url = "https://duckduckgo.com/"
+input_name = "q"
+hidden_input_name = "ia"
+hidden_input_value = "videos"
+extra_hidden_input_name = "iax"
+extra_hidden_input_value = "videos"

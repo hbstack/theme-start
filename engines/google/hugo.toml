@@ -1,0 +1,36 @@
+[params.hb.theme_start.search_engines.google]
+weight = 1
+input_name = "q"
+icon = "google"
+icon_color = "#4285f4"
+
+[params.hb.theme_start.search_engines.google.types.images]
+weight = 2
+input_name = "q"
+hidden_input_name = "tbm"
+hidden_input_value = "isch"
+url = "https://www.google.com/search"
+
+[params.hb.theme_start.search_engines.google.types.maps]
+weight = 5
+input_name = "q"
+url = "https://www.google.com/maps"
+
+[params.hb.theme_start.search_engines.google.types.news]
+weight = 4
+input_name = "q"
+hidden_input_name = "tbm"
+hidden_input_value = "nws"
+url = "https://www.google.com/search"
+
+[params.hb.theme_start.search_engines.google.types.organic]
+weight = 1
+input_name = "q"
+url = "https://www.google.com/search"
+
+[params.hb.theme_start.search_engines.google.types.videos]
+weight = 3
+input_name = "q"
+hidden_input_name = "tbm"
+hidden_input_value = "vid"
+url = "https://www.google.com/search"

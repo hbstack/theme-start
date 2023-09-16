@@ -1,0 +1,30 @@
+{{- $first := true }}
+{{- range . }}
+  <ul
+    class="hb-start-search-result-types nav nav-pills mb-2{{ cond $first `` ` d-none` }}"
+    data-engine="{{ .id }}">
+    {{- $engine := . }}
+    {{- $firstType := true }}
+    {{- range .types }}
+      <li class="nav-item">
+        <a
+          class="nav-link hb-start-search-result-type px-2 py-1 rounded-5{{ cond $firstType ` active` `` }}"
+          href="#"
+          data-url="{{ .url }}"
+          data-input-name="{{ .input_name }}"
+          {{ with .hidden_input_name }}data-hidden-input-name="{{ . }}"{{ end }}
+          {{ with .hidden_input_value }}
+            data-hidden-input-value="{{ . }}"
+          {{ end }}
+          {{ with .extra_hidden_input_name }}data-extra-hidden-input-name="{{ . }}"{{ end }}
+          {{ with .extra_hidden_input_value }}
+            data-extra-hidden-input-value="{{ . }}"
+          {{ end }}>
+          {{ .id | printf "search_result_type_%s" | i18n }}
+        </a>
+      </li>
+      {{- $firstType = false }}
+    {{- end }}
+  </ul>
+  {{- $first = false }}
+{{- end }}

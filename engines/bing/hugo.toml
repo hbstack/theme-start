@@ -1,0 +1,29 @@
+[params.hb.theme_start.search_engines.bing]
+weight = 2
+icon = "microsoftbing"
+icon_color = "#258ffa"
+
+[params.hb.theme_start.search_engines.bing.types.images]
+weight = 2
+input_name = "q"
+url = "https://www.bing.com/images"
+
+[params.hb.theme_start.search_engines.bing.types.maps]
+weight = 5
+input_name = "q"
+url = "https://www.bing.com/maps"
+
+[params.hb.theme_start.search_engines.bing.types.news]
+weight = 4
+input_name = "q"
+url = "https://www.bing.com/news"
+
+[params.hb.theme_start.search_engines.bing.types.organic]
+weight = 1
+input_name = "q"
+url = "https://www.bing.com/search"
+
+[params.hb.theme_start.search_engines.bing.types.videos]
+weight = 3
+input_name = "q"
+url = "https://www.bing.com/videos"
