@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/hbstack/theme-start/compare/engines/bing/v0.1.0...engines/bing/v0.1.1) (2023-09-16)
+
+
+### Bug Fixes 🐞
+
+* build ([fdeb5d0](https://github.com/hbstack/theme-start/commit/fdeb5d08ef675e5f232b6d3cc1304f3fdd0d7ced))
+
 ## [0.1.0](https://github.com/hbstack/theme-start/compare/engines/bing-v0.0.1...engines/bing/v0.1.0) (2023-09-16)
 
 

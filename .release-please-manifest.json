@@ -1,11 +1,11 @@
 {
-    ".": "0.2.0",
-    "engines/baidu": "0.1.0",
-    "engines/bing": "0.1.0",
-    "engines/duckduckgo": "0.1.0",
-    "engines/google": "0.1.0",
-    "engines/sogou": "0.1.0",
-    "engines/wikipedia": "0.1.0",
-    "engines/yahoo": "0.1.0",
-    "engines/yandex": "0.1.0"
+    ".": "0.3.0",
+    "engines/baidu": "0.1.1",
+    "engines/bing": "0.1.1",
+    "engines/duckduckgo": "0.1.1",
+    "engines/google": "0.1.1",
+    "engines/sogou": "0.1.1",
+    "engines/wikipedia": "0.1.1",
+    "engines/yahoo": "0.1.1",
+    "engines/yandex": "0.1.1"
 }
