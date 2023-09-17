@@ -20,6 +20,7 @@ github.com/hugomods/icons/vendors/font-awesome v0.6.1 h1:MyYF67fPthN4EDkT/IwY0yd
 github.com/hugomods/icons/vendors/font-awesome v0.6.1/go.mod h1:kmMci4qX8yTQPT28sskzKRudJiQAAiZZugjNbkakRhk=
 github.com/hugomods/icons/vendors/simple-icons v1.0.13 h1:zLR5GIZbCOjH2Ez+0xjbR0Bea5ViAz2I9iRZ0HuDD/4=
 github.com/hugomods/icons/vendors/simple-icons v1.0.13/go.mod h1:Ks+LDP1NgOaceeXthrkv6z/r8cJYPMp5uaYPpSrs13M=
+github.com/hugomods/icons/vendors/simple-icons v1.0.14/go.mod h1:1CN0iptqBWzNBodMiduk0Pq5i/2fYQqaeNcCjyasDGE=
 github.com/hugomods/seo/modules/favicons v0.2.0 h1:pzQMocbHHMNNiuE5vsCxE4qqaJBprYAUX4EOoiF+ynM=
 github.com/hugomods/seo/modules/favicons v0.2.0/go.mod h1:xFDhrpWUZR4NMMVkilzT6xFBHiF5eyCQ8PlzOS2K9lY=
 github.com/twbs/bootstrap v5.3.2+incompatible h1:tuiO5acc6xnZUR77Sbi5aKWXxjYxbmsSbJwYrhAKoQQ=
