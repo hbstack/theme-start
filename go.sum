@@ -17,6 +17,7 @@ github.com/hbstack/header/modules/socials v0.1.22/go.mod h1:6cKass3HgRKDDUChCB5u
 github.com/hbstack/header/modules/theme-toggle v0.1.14 h1:iC7ZRbNo72qn1Vudnu5DAn2pr0gONrTunrrMbG2lPok=
 github.com/hbstack/header/modules/theme-toggle v0.1.14/go.mod h1:7W99Yalps+pF9HviB0UB+M7bjX/Xd+LA17O0JqKceUs=
 github.com/hbstack/header/modules/theme-toggle v0.1.15/go.mod h1:AnZ6WvVqTfFJedWC86/mUPq57nxpy6AhrJ19Vy6SRvc=
+github.com/hbstack/header/modules/theme-toggle v0.1.16/go.mod h1:ikTS/T02uyyOQa9U9PVq0oF1idbjQm+ieCMM8bNUQ4k=
 github.com/hugomods/icons v0.6.0 h1:G6RU93okhPPRDh/jqcew9gwkcYpSpg0rCBv4S6yUAFw=
 github.com/hugomods/icons v0.6.0/go.mod h1:cIkSvK6W0q6N4U6n9KGz+QfRWQXAW0INd+1P31gPNGg=
 github.com/hugomods/icons/vendors/bootstrap v0.5.0 h1:CHEGk677heq2kJZa7XsGHRc3Hwizl9NFkmNw146OVm0=
