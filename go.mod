@@ -11,7 +11,7 @@ require (
 	github.com/hbstack/header/modules/theme-toggle v0.1.20 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.1 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
-	github.com/hugomods/icons/vendors/simple-icons v1.0.17 // indirect
+	github.com/hugomods/icons/vendors/simple-icons v1.0.18 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.0 // indirect
 	github.com/twbs/bootstrap v5.3.2+incompatible // indirect
 )
