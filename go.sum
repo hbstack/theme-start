@@ -4,6 +4,7 @@ github.com/hbstack/background-image v0.2.0 h1:wJJ4okZIUasDWcVNmkwSj9oxlj40Fpl3KK
 github.com/hbstack/background-image v0.2.0/go.mod h1:2lZhfQwZy7SWVmRU/kPEaEgzgXypBnXBlipQweJbWPQ=
 github.com/hbstack/base v0.2.1 h1:u3lkO9MhjA6HomkJ6hzt0R7sA0u330bo6lbxVrF1FiI=
 github.com/hbstack/base v0.2.1/go.mod h1:6SqazoH3UBSuwSHV1kyEDWcIJg+Cef++w8p45VSsSHQ=
+github.com/hbstack/base v0.2.2/go.mod h1:hBRf/kdIQnd7iEhBxr6A+jMwwgJC76MbiAin1eUdHkQ=
 github.com/hbstack/header v0.9.0 h1:lhFJYaaOSuuQ7/vavg9pULZ/po2JcoZrAiISh9Iqw70=
 github.com/hbstack/header v0.9.0/go.mod h1:ihpMPmzro0155ZHtd3t95C1R5NN61JUZ/0Hng3GpiGo=
 github.com/hbstack/header/modules/language-picker v0.1.14 h1:TqbubJw1QZksJ/q/jqcHcRhY3PLDDmoYnY+3bCowjsE=
