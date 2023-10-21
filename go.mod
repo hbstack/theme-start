@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/background-image v0.2.0 // indirect
-	github.com/hbstack/base v0.2.2 // indirect
+	github.com/hbstack/base v0.3.0 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.20 // indirect
 	github.com/hbstack/header/modules/socials v0.1.26 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.1.20 // indirect
