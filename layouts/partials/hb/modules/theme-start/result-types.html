@@ -2,14 +2,14 @@
 {{- $icons := partialCached "hb/modules/theme-start/functions/icons" . }}
 {{- range . }}
   <ul
-    class="hb-start-search-result-types nav nav-pills justify-content-center mb-2{{ cond $first `` ` d-none` }}"
+    class="hb-start-search-result-types nav nav-pills ms-3 mb-2{{ cond $first `` ` d-none` }}"
     data-engine="{{ .id }}">
     {{- $engine := . }}
     {{- $firstType := true }}
     {{- range .types }}
       <li class="nav-item">
         <a
-          class="nav-link hb-start-search-result-type px-2 py-1 rounded-5{{ cond $firstType ` active` `` }}"
+          class="nav-link hb-start-search-result-type px-2 py-1 rounded-4{{ cond $firstType ` active` `` }}"
           href="#"
           data-url="{{ .url }}"
           data-input-name="{{ .input_name }}"

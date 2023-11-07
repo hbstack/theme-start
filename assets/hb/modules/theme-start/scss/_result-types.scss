@@ -1,5 +1,6 @@
 .hb-start-search-result-types {
-  --#{$prefix}nav-pills-link-active-bg: var(--#{$prefix}secondary);
+  --#{$prefix}nav-pills-link-active-bg: var(--#{$prefix}secondary-bg);
+  --#{$prefix}nav-pills-link-active-color: var(--#{$prefix}secondary-color);
   
   font-size: 0.875rem;
 }
