@@ -7,6 +7,7 @@ github.com/hbstack/base v0.2.1/go.mod h1:6SqazoH3UBSuwSHV1kyEDWcIJg+Cef++w8p45VS
 github.com/hbstack/base v0.2.2/go.mod h1:hBRf/kdIQnd7iEhBxr6A+jMwwgJC76MbiAin1eUdHkQ=
 github.com/hbstack/base v0.3.0/go.mod h1:8ZSFDZyhtd26eNdVF7QyPqmxRg2rCJFxjN1I2iYu5N8=
 github.com/hbstack/base v0.4.0/go.mod h1:UrBBIY2xIIv3qLfHU5sX4Z1+vmWv0WuqXoSjco1huIc=
+github.com/hbstack/base v0.4.1/go.mod h1:ihI8NSFogNNXLpt7vWEYTGgSWE9UvgnfyFKJqmyOauU=
 github.com/hbstack/header v0.9.0 h1:lhFJYaaOSuuQ7/vavg9pULZ/po2JcoZrAiISh9Iqw70=
 github.com/hbstack/header v0.9.0/go.mod h1:ihpMPmzro0155ZHtd3t95C1R5NN61JUZ/0Hng3GpiGo=
 github.com/hbstack/header/modules/language-picker v0.1.14 h1:TqbubJw1QZksJ/q/jqcHcRhY3PLDDmoYnY+3bCowjsE=
