@@ -8,7 +8,7 @@ require (
 	github.com/hbstack/base v0.4.1 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.23 // indirect
 	github.com/hbstack/header/modules/socials v0.1.28 // indirect
-	github.com/hbstack/header/modules/theme-toggle v0.4.2 // indirect
+	github.com/hbstack/header/modules/theme-toggle v0.4.3 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.2 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.26 // indirect
