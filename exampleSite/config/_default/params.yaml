@@ -6,7 +6,8 @@ hb:
       github: hbstack/theme-start
       paypal: razonyang
       kofi: razonyang
-  # theme_start:
+  theme_start:
+    search_input_text: HB Framework
     # search_engines:
     #   google:
     #     weight: 1

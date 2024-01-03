@@ -1,5 +1,6 @@
 {{- $engines := partialCached "hb/modules/theme-start/functions/engines" . }}
 {{- $preferredType := index (index $engines 0).types 0 }}
+{{- $inputText := default "" site.Params.hb.theme_start.search_input_text }}
 {{ partialCached "hb/modules/theme-start/result-types" $engines }}
 <form
   class="form hb-start-search-form position-relative mb-3 mb-md-4"
@@ -8,6 +9,7 @@
   <input
     class="form-control form-control-lg rounded-pill w-100 hb-start-search-input shadow-sm"
     aria-label="Keywords"
+    {{ with $inputText }}value="{{ . }}"{{ end }}
     name="{{ $preferredType.input_name }}" />
   {{ partialCached "hb/modules/theme-start/engines" $engines }}
   <button
