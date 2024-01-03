@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/hbstack/theme-start/compare/engines/yahoo/v0.1.1...engines/yahoo/v0.1.2) (2024-01-03)
+
+
+### Bug Fixes 🐞
+
+* **engines/yahoo:** correct broken icon ([6023256](https://github.com/hbstack/theme-start/commit/60232560cd8c7ddbd48813631e207559f3809be0))
+
 ## [0.1.1](https://github.com/hbstack/theme-start/compare/engines/yahoo/v0.1.0...engines/yahoo/v0.1.1) (2023-09-16)
 
 
