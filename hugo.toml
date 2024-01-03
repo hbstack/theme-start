@@ -34,3 +34,4 @@ icon = "images/logo.png"
 [params.hb.header]
 
 [params.hb.theme_start]
+search_input_text = ""
