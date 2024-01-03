@@ -1,5 +1,6 @@
 [params.hb.theme_start.search_engines.yahoo]
 icon = "yahoo"
+icon_vendor = "fab"
 icon_color = "#6001d2"
 
 [params.hb.theme_start.search_engines.yahoo.types.images]
