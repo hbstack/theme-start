@@ -25,3 +25,10 @@ hb:
     #     disable: false
     #   sogou:
     #     disable: false
+
+hugopress:
+  modules:
+    custom:
+      hooks:
+        head-end:
+          disable: false
