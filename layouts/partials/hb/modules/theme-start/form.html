@@ -9,6 +9,7 @@
   <input
     class="form-control form-control-lg rounded-pill w-100 hb-start-search-input shadow-sm"
     aria-label="Keywords"
+    placeholder="{{ i18n `search_input_placeholder` }}"
     {{ with $inputText }}value="{{ . }}"{{ end }}
     name="{{ $preferredType.input_name }}" />
   {{ partialCached "hb/modules/theme-start/engines" $engines }}

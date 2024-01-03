@@ -25,6 +25,9 @@ other = "Yahoo"
 [search_engine_yandex]
 other = "Yandex"
 
+[search_input_placeholder]
+other = "Type to search"
+
 [search_result_type_images]
 other = "Images"
 

@@ -25,6 +25,9 @@ other = "雅虎"
 [search_engine_yandex]
 other = "Yandex"
 
+[search_input_placeholder]
+other = "搜索"
+
 [search_result_type_images]
 other = "图片"
 
