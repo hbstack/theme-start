@@ -3,7 +3,7 @@
 {{- $inputText := default "" site.Params.hb.theme_start.search_input_text }}
 {{ partialCached "hb/modules/theme-start/result-types" $engines }}
 <form
-  class="form hb-start-search-form position-relative mb-3 mb-md-4"
+  class="form hb-start-search-form position-relative mb-3 mb-md-5"
   action="{{ $preferredType.url }}"
   target="_blank">
   <input
