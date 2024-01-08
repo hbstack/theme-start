@@ -41,33 +41,24 @@
   }
 }
 
+.hb-start-app-title {
+  font-size: .875rem;
+}
+
 .hb-start-app {
   height: 120px;
+  opacity: .9;
+  transition: .3s;
 
   &:hover {
-    background: var(--#{$prefix}primary);
+    opacity: 1;
 
-    .hb-start-app-title {
-      color: #fff;
-    }
-
-    .hb-start-app-img,
-    .hb-start-app-img-placeholder {
-      animation: 1s linear app-flip;
+    .hb-start-app-img-container {
+      --#{$prefix}border-color: var(--#{$prefix}primary);
     }
   }
 
   &.inactive {
     display: none !important;
-  }
-}
-
-@keyframes app-flip {
-  0% {
-    transform: rotateY(0deg);
-  }
-
-  100% {
-    transform: rotateY(360deg);
   }
 }

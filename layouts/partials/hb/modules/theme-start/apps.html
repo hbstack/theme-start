@@ -27,7 +27,7 @@
     </ul>
   {{- end }}
   <div
-    class="hb-start-apps d-flex flex-wrap row row-cols-3 row-cols-md-4 row-cols-lg-5">
+    class="hb-start-apps d-flex flex-wrap row row-cols-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6">
     {{- range . }}
       {{- if .HasChildren }}
         {{- range .Children }}
@@ -51,7 +51,7 @@
     target="_blank"
     rel="external">
     <div
-      class="hb-start-app-img-container position-relative overflow-hidden bg-body-secondary rounded-circle d-flex justify-content-center align-items-center mb-2">
+      class="hb-start-app-img-container border border-2 position-relative overflow-hidden bg-body-secondary rounded-circle d-flex justify-content-center align-items-center mb-2">
       <img
         alt="{{ .Name }}"
         onload="this.parentElement.classList.add('loaded')"
