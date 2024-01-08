@@ -2,7 +2,7 @@
 {{- $icons := partialCached "hb/modules/theme-start/functions/icons" . }}
 {{- range . }}
   <ul
-    class="hb-start-search-result-types nav nav-pills ms-2 mb-2{{ cond $first `` ` d-none` }}"
+    class="hb-start-search-result-types nav nav-pills justify-content-center mb-2{{ cond $first `` ` d-none` }}"
     data-engine="{{ .id }}">
     {{- $engine := . }}
     {{- $firstType := true }}
