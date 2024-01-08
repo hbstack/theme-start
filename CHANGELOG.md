@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.5.0](https://github.com/hbstack/theme-start/compare/v0.4.0...v0.5.0) (2024-01-08)
+
+
+### Features ✨
+
+* allow specifying icons for applications ([237f2ac](https://github.com/hbstack/theme-start/commit/237f2ac7620353c1cd1ecf18bf2cf645924853b6))
+
+
+### Styles 🎨
+
+* align search result types to center ([e7ad35b](https://github.com/hbstack/theme-start/commit/e7ad35b4d728bc84a7a96e89404a7200a71fe8f2))
+* change the margin between search form and apps ([f062269](https://github.com/hbstack/theme-start/commit/f06226928bd3438abed1a1044135d138f1839354))
+* tweak layouts and styles ([4f8d47d](https://github.com/hbstack/theme-start/commit/4f8d47dbb2377081757e1f67a730243e5d1ab264))
+
 ## [0.4.0](https://github.com/hbstack/theme-start/compare/v0.3.2...v0.4.0) (2024-01-03)
 
 

@@ -1,5 +1,5 @@
 {
-    ".": "0.4.0",
+    ".": "0.5.0",
     "engines/baidu": "0.1.1",
     "engines/bing": "0.1.1",
     "engines/duckduckgo": "0.1.1",
