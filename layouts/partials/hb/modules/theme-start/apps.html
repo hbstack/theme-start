@@ -52,16 +52,20 @@
     rel="external">
     <div
       class="hb-start-app-img-container border border-2 position-relative overflow-hidden bg-body-secondary rounded-circle d-flex justify-content-center align-items-center mb-2">
-      <img
-        alt="{{ .Name }}"
-        onload="this.parentElement.classList.add('loaded')"
-        class="hb-start-app-img position-absolute top-0 w-100 h-100"
-        loading="lazy"
-        src="{{ $favicon }}" />
-      <span
-        class="hb-start-app-img-placeholder position-absolute top-0 w-100 h-100">
-        {{ substr .Name 0 1 | upper }}
-      </span>
+      {{- with .Params.icon }}
+        {{ partial "icons/icon" (merge (dict "width" "2em" "height" "2em") .) }}
+      {{- else }}
+        <img
+          alt="{{ .Name }}"
+          onload="this.parentElement.classList.add('loaded')"
+          class="hb-start-app-img position-absolute top-0 w-100 h-100"
+          loading="lazy"
+          src="{{ $favicon }}" />
+        <span
+          class="hb-start-app-img-placeholder position-absolute top-0 w-100 h-100">
+          {{ substr .Name 0 1 | upper }}
+        </span>
+      {{- end }}
     </div>
     <div class="hb-start-app-title text-center text-truncate w-100">
       {{ .Name }}

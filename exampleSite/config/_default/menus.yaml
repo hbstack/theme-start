@@ -34,11 +34,19 @@ apps:
     parent: work
     url: https://github.com
     weight: 1
+    params:
+      icon:
+        vendor: simple
+        name: github
 
   - name: Gmail
     parent: work
     url: https://mail.google.com
     weight: 2
+    params:
+      icon:
+        vendor: simple
+        name: gmail
 
   - name: Webmaster
     identifier: webmaster
@@ -58,6 +66,10 @@ apps:
     url: https://search.google.com/search-console
     weight: 3
     parent: webmaster
+    params:
+      icon:
+        vendor: simple
+        name: google
 
   - name: Bing Webmaster Tools
     url: https://www.bing.com/webmasters/about
