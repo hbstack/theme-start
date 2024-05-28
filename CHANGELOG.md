@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/hbstack/theme-start/compare/v0.5.0...v0.6.0) (2024-05-28)
+
+
+### Features ✨
+
+* **i18n:** add Vietnamese translations ([78fb1fd](https://github.com/hbstack/theme-start/commit/78fb1fd93012c70ac57c0b4b281ee0706bf44c74))
+
 ## [0.5.0](https://github.com/hbstack/theme-start/compare/v0.4.0...v0.5.0) (2024-01-08)
 
 
