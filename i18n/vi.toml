@@ -1,0 +1,44 @@
+[all_sites]
+other = "All"
+
+[search_engine_baidu]
+other = "Baidu"
+
+[search_engine_bing]
+other = "Bing"
+
+[search_engine_duckduckgo]
+other = "DuckDuckGo"
+
+[search_engine_google]
+other = "Google"
+
+[search_engine_sogou]
+other = "Sogou"
+
+[search_engine_wikipedia]
+other = "Wikipedia"
+
+[search_engine_yahoo]
+other = "Yahoo"
+
+[search_engine_yandex]
+other = "Yandex"
+
+[search_input_placeholder]
+other = "Type to search"
+
+[search_result_type_images]
+other = "Images"
+
+[search_result_type_maps]
+other = "Maps"
+
+[search_result_type_news]
+other = "News"
+
+[search_result_type_organic]
+other = "Organic"
+
+[search_result_type_videos]
+other = "Videos"
