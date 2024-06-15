@@ -6,7 +6,7 @@ require (
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/background-image v0.2.1 // indirect
 	github.com/hbstack/base v0.6.1 // indirect
-	github.com/hbstack/header/modules/language-picker v0.1.25 // indirect
+	github.com/hbstack/header/modules/language-picker v0.1.26 // indirect
 	github.com/hbstack/header/modules/socials v0.2.0 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.5.1 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.7 // indirect
