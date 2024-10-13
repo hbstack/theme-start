@@ -1,4 +1,5 @@
 .hb-start-search-input {
+  @extend .text-body-secondary;
   padding-left: 2.75rem;
   padding-right: 2.75rem;
 }
