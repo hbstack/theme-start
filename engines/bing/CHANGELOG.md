@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/hbstack/theme-start/compare/engines/bing/v0.1.1...engines/bing/v0.1.2) (2024-10-13)
+
+
+### Bug Fixes 🐞
+
+* **engines/bing:** broken logo ([6a57696](https://github.com/hbstack/theme-start/commit/6a576960f58de7223ca0eb7948f1a577a294d5a1))
+
 ## [0.1.1](https://github.com/hbstack/theme-start/compare/engines/bing/v0.1.0...engines/bing/v0.1.1) (2023-09-16)
 
 

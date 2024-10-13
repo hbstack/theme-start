@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.7.0](https://github.com/hbstack/theme-start/compare/v0.6.0...v0.7.0) (2024-10-13)
+
+
+### Continuous Integration
+
+* **deps:** update modules ([f65d100](https://github.com/hbstack/theme-start/commit/f65d100fb0702350188f67003a508c3a5fcab2b3))
+
+
+### Features ✨
+
+* add the `search_input_auto_focus` parameter ([4877b54](https://github.com/hbstack/theme-start/commit/4877b545df7b78a85602d55311e4f60e8652eb41))
+
+
+### Styles 🎨
+
+* align engine icons to middle ([03be7a7](https://github.com/hbstack/theme-start/commit/03be7a73d02790eb7df2b972c1b3e863db36cbba))
+* change color of input ([c15eba1](https://github.com/hbstack/theme-start/commit/c15eba1c3719b0b87628a098507e0d2c8f30f718))
+
 ## [0.6.0](https://github.com/hbstack/theme-start/compare/v0.5.0...v0.6.0) (2024-05-28)
 
 

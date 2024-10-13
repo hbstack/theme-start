@@ -1,7 +1,7 @@
 {
-    ".": "0.6.0",
+    ".": "0.7.0",
     "engines/baidu": "0.1.1",
-    "engines/bing": "0.1.1",
+    "engines/bing": "0.1.2",
     "engines/duckduckgo": "0.1.1",
     "engines/google": "0.1.1",
     "engines/sogou": "0.1.1",
