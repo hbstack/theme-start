@@ -1,6 +1,7 @@
 [params.hb.theme_start.search_engines.bing]
 weight = 2
-icon = "microsoftbing"
+icon = "bing"
+icon_vendor = "bootstrap"
 icon_color = "#258ffa"
 
 [params.hb.theme_start.search_engines.bing.types.images]
