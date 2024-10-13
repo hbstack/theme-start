@@ -79,7 +79,19 @@
   }
 
   // focus the input on page loaded.
-  input?.focus()
+  if (input?.hasAttribute('data-auto-focus')) {
+    input.focus()
+  } else {
+    // clear placeholder when focus on first time.
+    input?.addEventListener('focus', () => {
+      if (input.hasAttribute('data-typed')) {
+        return
+      }
+
+      input.setAttribute('data-typed', 'true')
+      input.value = ''
+    })
+  }
 
   // load the last engine.
   const engineID = localStorage.getItem('engine')

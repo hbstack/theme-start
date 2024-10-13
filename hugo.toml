@@ -35,3 +35,4 @@ icon = "images/logo.png"
 
 [params.hb.theme_start]
 search_input_text = ""
+search_input_auto_focus = true

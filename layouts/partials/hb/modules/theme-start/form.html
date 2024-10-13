@@ -9,6 +9,7 @@
   <input
     class="form-control form-control-lg rounded-pill w-100 hb-start-search-input shadow-sm"
     aria-label="Keywords"
+    {{ if (default true site.Params.hb.theme_start.search_input_auto_focus) }}data-auto-focus="true"{{ end }}
     placeholder="{{ i18n `search_input_placeholder` }}"
     {{ with $inputText }}value="{{ . }}"{{ end }}
     name="{{ $preferredType.input_name }}" />
