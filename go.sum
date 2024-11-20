@@ -123,6 +123,7 @@ github.com/hugomods/icons/vendors/font-awesome v0.6.8/go.mod h1:IwJEJX8eFwDFCcxM
 github.com/hugomods/icons/vendors/font-awesome v0.6.9/go.mod h1:YPxdyI0WHuZfvwNeG8ADHXwnWmWIuu3PqiYGz8q9Skw=
 github.com/hugomods/icons/vendors/font-awesome v0.6.10/go.mod h1:3izAIdRkMg2O0N1RWB4Uw615VErx75b/nC/199BYV50=
 github.com/hugomods/icons/vendors/font-awesome v0.6.11/go.mod h1:WHsS+MubOTORHHZyMWyNLVGpDpHNUBiXwlu3OKk5pKE=
+github.com/hugomods/icons/vendors/font-awesome v0.6.12/go.mod h1:6YBo/5GaNpAocKwnKNWcd9xkliiRJXmwz2mstY5lr9I=
 github.com/hugomods/icons/vendors/simple-icons v1.0.13 h1:zLR5GIZbCOjH2Ez+0xjbR0Bea5ViAz2I9iRZ0HuDD/4=
 github.com/hugomods/icons/vendors/simple-icons v1.0.13/go.mod h1:Ks+LDP1NgOaceeXthrkv6z/r8cJYPMp5uaYPpSrs13M=
 github.com/hugomods/icons/vendors/simple-icons v1.0.14/go.mod h1:1CN0iptqBWzNBodMiduk0Pq5i/2fYQqaeNcCjyasDGE=
