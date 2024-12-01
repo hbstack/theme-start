@@ -36,6 +36,9 @@ jobs:
       - name: Install dependencies
         run: cd exampleSite && npm ci
 
+      - name: Setup Dart Sass
+        run: sudo snap install dart-sass && sudo snap alias dart-sass sass
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
