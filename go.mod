@@ -13,7 +13,7 @@ require (
 	github.com/hbstack/header/modules/language-picker v0.1.26 // indirect
 	github.com/hbstack/header/modules/socials v0.2.2 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.5.2 // indirect
-	github.com/hbstack/socials v0.17.0 // indirect
+	github.com/hbstack/socials v0.17.1 // indirect
 	github.com/hugomods/ascii v0.1.0 // indirect
 	github.com/hugomods/base v0.7.2 // indirect
 	github.com/hugomods/font-awesome v6.7.1+incompatible // indirect
