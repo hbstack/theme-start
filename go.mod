@@ -8,7 +8,7 @@ require (
 	github.com/hbstack/background-image v0.2.1 // indirect
 	github.com/hbstack/base v0.6.2 // indirect
 	github.com/hbstack/footer v0.4.1 // indirect
-	github.com/hbstack/hb v0.16.0 // indirect
+	github.com/hbstack/hb v0.16.2 // indirect
 	github.com/hbstack/header v0.16.6 // indirect
 	github.com/hbstack/header/modules/language-picker v0.2.0 // indirect
 	github.com/hbstack/header/modules/socials v0.2.2 // indirect
