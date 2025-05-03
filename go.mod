@@ -26,5 +26,5 @@ require (
 	github.com/hugomods/seo/modules/favicons v0.2.2 // indirect
 	github.com/hugomods/simple-icons v13.21.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.5+incompatible // indirect
-	github.com/twbs/icons v1.11.3 // indirect
+	github.com/twbs/icons v1.11.4 // indirect
 )
