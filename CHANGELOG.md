@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://github.com/hbstack/theme-start/compare/v0.7.0...v0.8.0) (2025-10-05)
+
+
+### Features ✨
+
+* **i18n:** add German translation, fix typos ([#291](https://github.com/hbstack/theme-start/issues/291)) ([7e6a1e8](https://github.com/hbstack/theme-start/commit/7e6a1e8411daf1553af5f76cc9988fe9f24558c8))
+
 ## [0.7.0](https://github.com/hbstack/theme-start/compare/v0.6.0...v0.7.0) (2024-10-13)
 
 
