@@ -12,6 +12,7 @@ github.com/hbstack/hb v0.16.2 h1:4hUaWygXmZA26cToXj/hXmMuQzsprNdkBuE4Rs7eIYc=
 github.com/hbstack/hb v0.16.2/go.mod h1:f17XbKHV29zgwV0OaayneXU1nMXFpQUdBYApAPNjFMo=
 github.com/hbstack/header v0.16.6 h1:t8wUlpXAo7FTYutk1run6Slb8AqfJ3aNlFerZLy3FAw=
 github.com/hbstack/header v0.16.6/go.mod h1:ZfeQNeNWaBeGPBZHtbRz2W9IWkmIoMrpOXoDsoYa/Gg=
+github.com/hbstack/header v0.16.7/go.mod h1:H9BH5lD/s0VYKwqj9l6rxSyDwG4bJg73MSBftVS5aAc=
 github.com/hbstack/header/modules/language-picker v0.2.0 h1:RcmHUBqDYdWk2CpgwF82cqoeDBLhRU6gq2j73IXe+xw=
 github.com/hbstack/header/modules/language-picker v0.2.0/go.mod h1:opUZ/a9pSxmdAj41mv6M854F9u9XxbEsxUfQuNZx4DU=
 github.com/hbstack/header/modules/socials v0.2.2 h1:HZzeJg3Ncf0vv2QipccYYhSADVTG4Aqt1rYLml23u40=
@@ -42,6 +43,7 @@ github.com/hugomods/seo/modules/favicons v0.2.2 h1:EMpCg9ef2bexFM8uz4UGCyYtM+X4x
 github.com/hugomods/seo/modules/favicons v0.2.2/go.mod h1:Bb/Se6JHet2xnWBa2vxmePR/gCBptqVB82oy0GwN/Y8=
 github.com/hugomods/simple-icons v13.21.0+incompatible h1:ux9TN7I2oOw5uz4htrdhqFyjAeY+/KYCo3LmfnOfuWI=
 github.com/hugomods/simple-icons v13.21.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
+github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.8+incompatible h1:eK1fsXP7R/FWFt+sSNmmvUH9usPocf240nWVw7Dh02o=
 github.com/twbs/bootstrap v5.3.8+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.13.1 h1:6bmNXvoeIbvjFWjfbjXg5JGbelLD1haIsMaEIzE9UZI=
